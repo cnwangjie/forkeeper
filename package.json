@@ -1,0 +1,38 @@
+{
+  "name": "forkeeper",
+  "version": "1.0.0",
+  "description": "A Probot app",
+  "author": "WangJie <i@i8e.net>",
+  "license": "ISC",
+  "repository": "https://github.com/cnwangjie/forkeeper.git",
+  "homepage": "https://github.com/cnwangjie/forkeeper",
+  "bugs": "https://github.com/cnwangjie/forkeeper/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "probot": "^7.0.0",
+    "probot-scheduler": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
